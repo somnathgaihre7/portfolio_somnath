@@ -1,5 +1,7 @@
 import Background from "@/components/Background";
+import Contact from "@/components/Contact";
 import Experience from "@/components/Experience";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Section from "@/components/Section";
@@ -23,11 +25,10 @@ export default function Home() {
           <Work />
         </Section>
         <Section id="contact" badge="Let's talk" title="Contact">
-          <div className="glass rounded-2xl p-8 text-muted">
-            Contact placeholder — Phase 6
-          </div>
+          <Contact />
         </Section>
       </main>
+      <Footer />
     </>
   );
 }
