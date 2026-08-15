@@ -12,7 +12,7 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 ## Status
 
-Next.js 16.3.1 scaffolded (Turbopack, TypeScript, Tailwind v4, App Router, `src/`). Phases in progress — see `PLAN.md`.
+Next.js 16.3.1, single-page portfolio complete (all 7 phases in `PLAN.md` done). Turbopack, TypeScript, Tailwind v4, App Router, `src/`.
 
 ## Sources of truth
 
