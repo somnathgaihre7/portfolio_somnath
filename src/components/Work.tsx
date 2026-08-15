@@ -13,6 +13,11 @@ const projects = [
     description:
       "Gym management system to manage booking trainers and scheduling.",
   },
+  {
+    name: "Garage Sewa",
+    description:
+      "Online system to book and call garages and mechanics for emergencies that happen to any two-wheelers and four-wheelers vehicles.",
+  },
 ];
 
 export default function Work() {
