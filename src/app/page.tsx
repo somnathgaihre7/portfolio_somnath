@@ -1,4 +1,5 @@
 import Background from "@/components/Background";
+import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Section from "@/components/Section";
 
@@ -8,9 +9,7 @@ export default function Home() {
       <Background />
       <Navbar />
       <main className="flex flex-1 flex-col gap-24 py-28">
-        <section id="hero" className="scroll-mt-28 flex min-h-[80vh] flex-col items-center justify-center px-6 text-center">
-          <p className="mb-4 text-muted">Hero placeholder — Phase 3</p>
-        </section>
+        <Hero />
         <Section id="experience" badge="Career" title="Experience & Education">
           <div className="glass rounded-2xl p-8 text-muted">
             Experience placeholder — Phase 4
