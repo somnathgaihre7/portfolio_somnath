@@ -1,4 +1,5 @@
 import Background from "@/components/Background";
+import Experience from "@/components/Experience";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Section from "@/components/Section";
@@ -11,9 +12,7 @@ export default function Home() {
       <main className="flex flex-1 flex-col gap-24 py-28">
         <Hero />
         <Section id="experience" badge="Career" title="Experience & Education">
-          <div className="glass rounded-2xl p-8 text-muted">
-            Experience placeholder — Phase 4
-          </div>
+          <Experience />
         </Section>
         <Section id="stack" badge="Toolkit" title="Stack">
           <div className="glass rounded-2xl p-8 text-muted">
