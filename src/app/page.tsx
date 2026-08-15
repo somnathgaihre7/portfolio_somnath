@@ -3,6 +3,8 @@ import Experience from "@/components/Experience";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Section from "@/components/Section";
+import Stack from "@/components/Stack";
+import Work from "@/components/Work";
 
 export default function Home() {
   return (
@@ -15,14 +17,10 @@ export default function Home() {
           <Experience />
         </Section>
         <Section id="stack" badge="Toolkit" title="Stack">
-          <div className="glass rounded-2xl p-8 text-muted">
-            Stack placeholder — Phase 5
-          </div>
+          <Stack />
         </Section>
         <Section id="work" badge="Projects" title="Work">
-          <div className="glass rounded-2xl p-8 text-muted">
-            Work placeholder — Phase 5
-          </div>
+          <Work />
         </Section>
         <Section id="contact" badge="Let's talk" title="Contact">
           <div className="glass rounded-2xl p-8 text-muted">
