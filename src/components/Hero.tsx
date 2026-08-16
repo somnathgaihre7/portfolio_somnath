@@ -1,6 +1,8 @@
 "use client";
 
+import Image from "next/image";
 import { motion, type Variants } from "motion/react";
+import profile from "@/assets/profile.jpg";
 
 const container: Variants = {
   hidden: {},
@@ -36,6 +38,19 @@ export default function Hero() {
           </span>
           Available for work
         </motion.span>
+
+        <motion.div variants={item} className="relative">
+          <span className="absolute inset-0 rounded-full bg-indigo-500/40 blur-2xl" />
+          <div className="relative rounded-full bg-linear-to-tr from-indigo-500 to-sky-500 p-1 shadow-lg shadow-indigo-500/25">
+            <Image
+              src={profile}
+              alt="Portrait of Somnath Gaihre"
+              loading="eager"
+              fetchPriority="high"
+              className="h-32 w-32 rounded-full object-cover sm:h-40 sm:w-40"
+            />
+          </div>
+        </motion.div>
 
         <motion.h1
           variants={item}
